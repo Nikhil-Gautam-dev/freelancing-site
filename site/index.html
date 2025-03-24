@@ -3,150 +3,171 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GrowPulse</title>
+    <title>GrowPulse - Tech Solutions for Growth</title>
+
+    <!-- SEO Meta Tags -->
+    <meta
+      name="description"
+      content="GrowPulse offers expert college project support, website development, startup solutions, and social media marketing to accelerate your success."
+    />
+    <meta
+      name="keywords"
+      content="college projects, website development, startup solutions, social media marketing, GrowPulse"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="GrowPulse" />
+
+    <!-- Open Graph (OG) for Social Media -->
+    <meta property="og:title" content="GrowPulse - Tech Solutions for Growth" />
+    <meta
+      property="og:description"
+      content="Expert tech solutions including website development, project guidance, and startup acceleration."
+    />
+    <meta property="og:image" content="https://yourdomain.com/og-image.jpg" />
+    <meta property="og:url" content="https://yourdomain.com" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card for Social Media -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="GrowPulse - Tech Solutions for Growth"
+    />
+    <meta
+      name="twitter:description"
+      content="Expert tech solutions including website development, project guidance, and startup acceleration."
+    />
+    <meta
+      name="twitter:image"
+      content="https://yourdomain.com/twitter-image.jpg"
+    />
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="style.css" />
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
       rel="stylesheet"
     />
+
+    <!-- Structured Data (Schema Markup) for SEO -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "GrowPulse",
+        "url": "https://yourdomain.com",
+        "logo": "https://yourdomain.com/logo.png",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "email": "growpulse03@gmail.com",
+          "contactType": "Customer Support"
+        }
+      }
+    </script>
   </head>
   <body>
     <!-- Hero Section -->
-    <section id="hero">
+    <section id="hero" aria-labelledby="hero-heading">
       <div class="hero-content">
-        <h1>GrowPulse</h1>
+        <h1 id="hero-heading">GrowPulse</h1>
         <p>Your Growth, Our Mission</p>
-        <a href="#contact" class="cta-button">Get Started</a>
+        <a
+          href="#contact"
+          class="cta-button"
+          aria-label="Get started with GrowPulse"
+          >Get Started</a
+        >
       </div>
     </section>
 
     <!-- Services Section -->
-    <section id="services">
-      <h2>Our Services</h2>
+    <section id="services" aria-labelledby="services-heading">
+      <h2 id="services-heading">Our Services</h2>
 
       <div class="service-container">
         <div class="service-card">
-          <i class="fas fa-graduation-cap"></i>
+          <i class="fas fa-graduation-cap" aria-hidden="true"></i>
           <h3>College Project Support</h3>
           <p>
             Expert guidance and complete implementation of college projects
             across various domains.
           </p>
-          <a href="#contact" class="service-button">Consult Now</a>
+          <a
+            href="#contact"
+            class="service-button"
+            aria-label="Consult for college project support"
+            >Consult Now</a
+          >
         </div>
 
         <div class="service-card">
-          <i class="fas fa-laptop-code"></i>
+          <i class="fas fa-laptop-code" aria-hidden="true"></i>
           <h3>Website Development</h3>
           <p>
             Full-stack website development with modern technologies and
             responsive design.
           </p>
-          <a href="#contact" class="service-button">Build Website</a>
+          <a
+            href="#contact"
+            class="service-button"
+            aria-label="Build a website with us"
+            >Build Website</a
+          >
         </div>
 
         <div class="service-card">
-          <i class="fas fa-rocket"></i>
+          <i class="fas fa-rocket" aria-hidden="true"></i>
           <h3>Startup Solutions</h3>
           <p>
             Comprehensive tech solutions to kickstart and scale your startup
             idea.
           </p>
-          <a href="#contact" class="service-button">Launch Now</a>
+          <a
+            href="#contact"
+            class="service-button"
+            aria-label="Launch your startup"
+            >Launch Now</a
+          >
         </div>
 
         <div class="service-card">
-          <i class="fas fa-bullhorn"></i>
+          <i class="fas fa-bullhorn" aria-hidden="true"></i>
           <h3>Social Media Marketing</h3>
           <p>
             Strategic social media campaigns to boost your online presence and
             engagement.
           </p>
-          <a href="#contact" class="service-button">Grow Online</a>
+          <a
+            href="#contact"
+            class="service-button"
+            aria-label="Grow your online presence"
+            >Grow Online</a
+          >
         </div>
       </div>
     </section>
 
-    <!-- Project Section -->
-
-    <!-- <section id="projects">
-      <h2>Our Featured Projects</h2>
-      <div class="projects-container">
-        <div class="project-card">
-          <img
-            src="https://via.placeholder.com/350x250.png?text=E-Commerce+Website"
-            alt="E-Commerce Project"
-          />
-          <div class="project-details">
-            <h3>E-Commerce Platform</h3>
-            <p>
-              Full-stack e-commerce solution with payment integration and
-              responsive design.
-            </p>
-            <div class="project-tags">
-              <span>React</span>
-              <span>Node.js</span>
-              <span>MongoDB</span>
-            </div>
-            <a href="#" class="project-link">View Project</a>
-          </div>
-        </div>
-
-        <div class="project-card">
-          <img
-            src="https://via.placeholder.com/350x250.png?text=Social+Media+App"
-            alt="Social Media App"
-          />
-          <div class="project-details">
-            <h3>Social Media Networking App</h3>
-            <p>
-              Modern social networking application with real-time messaging and
-              user interactions.
-            </p>
-            <div class="project-tags">
-              <span>Flutter</span>
-              <span>Firebase</span>
-              <span>GraphQL</span>
-            </div>
-            <a href="#" class="project-link">View Project</a>
-          </div>
-        </div>
-
-        <div class="project-card">
-          <img
-            src="https://via.placeholder.com/350x250.png?text=Dashboard+App"
-            alt="Analytics Dashboard"
-          />
-          <div class="project-details">
-            <h3>Business Analytics Dashboard</h3>
-            <p>
-              Comprehensive dashboard for real-time business performance
-              tracking.
-            </p>
-            <div class="project-tags">
-              <span>Vue.js</span>
-              <span>Chart.js</span>
-              <span>Python</span>
-            </div>
-            <a href="#" class="project-link">View Project</a>
-          </div>
-        </div>
-      </div>
-    </section> -->
-
     <!-- Contact Section -->
-    <section id="contact">
-      <h2>Contact Us</h2>
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact Us</h2>
       <div class="contact-methods">
-        <a href="mailto:growpulse03@gmail.com" class="contact-link">
-          <i class="fas fa-envelope"></i> Email
+        <a
+          href="mailto:growpulse03@gmail.com"
+          class="contact-link"
+          aria-label="Send an email to GrowPulse"
+        >
+          <i class="fas fa-envelope" aria-hidden="true"></i> Email
         </a>
         <a
           href="https://wa.me/918877746553"
           target="_blank"
           class="contact-link"
+          aria-label="Contact GrowPulse on WhatsApp"
         >
-          <i class="fab fa-whatsapp"></i> WhatsApp
+          <i class="fab fa-whatsapp" aria-hidden="true"></i> WhatsApp
         </a>
       </div>
     </section>
